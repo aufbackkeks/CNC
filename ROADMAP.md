@@ -18,4 +18,4 @@ thus split the model into 2D Planes.
 
 ## Conversion from 2D Planes in Commands for the Arduino
 Take the 2D Planes and convert them into commands for the
-Arduino, to be send over the Connection discussed initially
+Arduino, to be send over the Connection discussed initially.

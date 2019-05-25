@@ -18,27 +18,16 @@ in one pice and interpreted
 There are three types:
 1. Requests
 2. Commands
-3. Checks
 
 Each type is associated with one byte
 pattern to send in the Type field.
-
-### Checks
-
-| Type | Size | Payload    |
-|------|------|------------|
-| 1    | 1    | check type |
-
-The check type is another 1B figure
-and each check has another check type
-pattern.
 
 ### Commands
 Fields:
 
 | Type | Size | Payload      |
 |------|------|--------------|
-| 2    | 8    | motor ; time |
+| 1    | 8    | motor ; time |
 
 The Payload looks like this:
 
@@ -58,7 +47,7 @@ by the Arduino to the PC.
 
 | Type | Size | Payload            |
 |------|------|--------------------|
-| 3    | 1    | Number of Commands |
+| 2    | 1    | Number of Commands |
 
 The Number of Commands is
 the number of Commands that

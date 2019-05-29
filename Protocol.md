@@ -102,10 +102,10 @@ The Payload looks like this:
   </tr>
   <tr>
     <td>
-    uint
+      4B (uint)
     </td>
     <td>
-    uint
+      4B (uint)
     </td>
   </tr>
 </table>

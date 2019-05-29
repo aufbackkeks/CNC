@@ -22,8 +22,8 @@ in one pice and interpreted
 
 Fields:
 - Type (1B), the type of the packet
-- Size (4B), the size of the Payload field
-- Payload (SizeB), the payload of the packet
+- Size (1B), the size of the Payload field 
+- Payload (Max. 256B), the payload of the packet
 
 ## Types
 There are three types:

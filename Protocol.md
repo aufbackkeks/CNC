@@ -26,10 +26,11 @@ Fields:
 - Payload (Max. 256B), the payload of the packet
 
 ## Types
-There are three types:
+There are four types:
 1. Requests
 2. Commands
 3. Checks
+4. Responses
 
 Each type is associated with one byte
 pattern to send in the Type field.
@@ -140,3 +141,30 @@ The Number of Commands is
 the number of Commands that
 the PC shall send to
 the Arduino back.
+
+### Resonses
+A Response looks like this:
+<table>
+    <tr>
+      <td>
+        Type
+      </td>
+      <td>
+        Size
+      </td>
+      <td>
+        Payload
+      </td>
+  </tr>
+  <tr>
+    <td>
+      4
+    </td>
+    <td>
+      Variable
+    </td>
+    <td>
+      Variable
+    </td>
+    </tr>
+    </table>
